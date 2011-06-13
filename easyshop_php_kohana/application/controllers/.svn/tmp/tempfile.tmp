@@ -1,0 +1,101 @@
+<<<<<<< .mine
+<?php
+
+class Products_Controller extends Controller
+{
+	public function index()
+	{
+	$this->template->title= "Produkty";
+	$this->view(0,0);
+	}
+
+	public function view($method, $arguments)
+	{
+		$per_page = $this->input->get('limit', 1);
+		$page_num = $this->input->get('page', 1);
+		$offset   = ($page_num - 1) * $per_page;
+		
+		$query = ORM::factory('product');
+		$products = $query->limit($per_page, $offset)->find_all();
+		$pages = $pages = Pagination::factory(array
+		(
+		    'style' => 'digg',
+		    'items_per_page' => $per_page,
+		    'query_string' => 'page',
+		    'total_items' => $query->count_last_query()
+		));
+		 
+		foreach ($products as $product)
+		{
+		   $this->template->content .= html::anchor('products/product/'.$product->id, $product->title).'<br/>';
+		}
+		$this->template->content .=$pages;
+		
+	}
+	
+	public function product($id) {
+	    $this->template->content = View::factory('products/product')->set('product', ORM::factory('product')->find($id));
+	}
+	
+	public function add($method, $arguments)
+	{
+	}
+	
+	public function edit($method, $arguments)
+	{
+		
+	}
+
+}
+?>
+=======
+<?php
+
+class Products_Controller extends Controller
+{
+	public function index()
+	{
+	$this->template->title= "Produkty";
+	$this->view(0,0);
+	}
+
+	public function view($method, $arguments)
+	{
+		$per_page = $this->input->get('limit', 1);
+		$page_num = $this->input->get('page', 1);
+		$offset   = ($page_num - 1) * $per_page;
+		
+		$query = ORM::factory('product');
+		$products = $query->limit($per_page, $offset)->find_all();
+		$pages = $pages = Pagination::factory(array
+		(
+		    'style' => 'digg',
+		    'items_per_page' => $per_page,
+		    'query_string' => 'page',
+		    'total_items' => $query->count_last_query()
+		));
+		 
+		foreach ($products as $product)
+		{
+		   $this->template->content .= html::anchor('products/product/'.$product->id, $product->title).'<br/>';
+		}
+		$this->template->content .=$pages;
+		
+	}
+	
+	public function product($id) {
+	    $this->template->content = View::factory('products/product')->set('product', ORM::factory('product')->find($id));
+	}
+	
+	public function add($method, $arguments)
+	{
+	}
+	
+	public function edit($method, $arguments)
+	{
+		
+	}
+
+}
+?>
+>>>>>>> .r13

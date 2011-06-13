@@ -1,0 +1,137 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Czas wygenerowania: 14 Lut 2009, 17:53
+-- Wersja serwera: 5.1.29
+-- Wersja PHP: 5.2.7
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Baza danych: `bigfun_easyshop`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `articles`
+--
+
+DROP TABLE IF EXISTS `articles`;
+CREATE TABLE `articles` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) COLLATE utf8_polish_ci NOT NULL,
+  `body` text COLLATE utf8_polish_ci NOT NULL,
+  `date` int(11) NOT NULL,
+  `user_id` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci AUTO_INCREMENT=9 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `comments`
+--
+
+DROP TABLE IF EXISTS `comments`;
+CREATE TABLE `comments` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `product_id` int(10) unsigned NOT NULL,
+  `body` text COLLATE utf8_unicode_ci NOT NULL,
+  `date` int(12) unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=9 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `confirmations`
+--
+
+DROP TABLE IF EXISTS `confirmations`;
+CREATE TABLE `confirmations` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `token` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=12 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `contacts`
+--
+
+DROP TABLE IF EXISTS `contacts`;
+CREATE TABLE `contacts` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `street` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `city` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `postcode` varchar(6) COLLATE utf8_unicode_ci NOT NULL,
+  `phone` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `user_id` (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=DYNAMIC AUTO_INCREMENT=6 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `groups`
+--
+
+DROP TABLE IF EXISTS `groups`;
+CREATE TABLE `groups` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=17 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `products`
+--
+
+DROP TABLE IF EXISTS `products`;
+CREATE TABLE `products` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(128) COLLATE utf8_unicode_ci NOT NULL,
+  `description` text COLLATE utf8_unicode_ci NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  `image` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `date` int(11) NOT NULL,
+  `group_id` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=DYNAMIC AUTO_INCREMENT=10 ;
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla  `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `confirmed` int(1) unsigned NOT NULL DEFAULT '0',
+  `name` varchar(40) COLLATE utf8_unicode_ci NOT NULL,
+  `surname` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+  `mail` varchar(250) COLLATE utf8_unicode_ci NOT NULL,
+  `pass` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+  `permission` int(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ROW_FORMAT=DYNAMIC AUTO_INCREMENT=10 ;
+
+--
+-- Ograniczenia dla zrzutów tabel
+--
+
+--
+-- Ograniczenia dla tabeli `contacts`
+--
+ALTER TABLE `contacts`
+  ADD CONSTRAINT `contacts_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;

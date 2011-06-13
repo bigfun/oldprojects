@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/source/easyshop/!svn/ver/2/system/config
+END
+pagination.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/easyshop/!svn/ver/2/system/config/pagination.php
+END
+encryption.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/easyshop/!svn/ver/2/system/config/encryption.php
+END
+locale.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/source/easyshop/!svn/ver/2/system/config/locale.php
+END
+captcha.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/source/easyshop/!svn/ver/2/system/config/captcha.php
+END
+cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/source/easyshop/!svn/ver/2/system/config/cache.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/source/easyshop/!svn/ver/2/system/config/database.php
+END
+cookie.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/source/easyshop/!svn/ver/2/system/config/cookie.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/source/easyshop/!svn/ver/2/system/config/mimes.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/source/easyshop/!svn/ver/2/system/config/view.php
+END
+cache_xcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/source/easyshop/!svn/ver/2/system/config/cache_xcache.php
+END
+http.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/source/easyshop/!svn/ver/2/system/config/http.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/source/easyshop/!svn/ver/2/system/config/user_agents.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/source/easyshop/!svn/ver/2/system/config/routes.php
+END
+image.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/source/easyshop/!svn/ver/2/system/config/image.php
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/source/easyshop/!svn/ver/2/system/config/profiler.php
+END
+session.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/source/easyshop/!svn/ver/2/system/config/session.php
+END
+sql_types.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/source/easyshop/!svn/ver/2/system/config/sql_types.php
+END
+cache_sqlite.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/source/easyshop/!svn/ver/2/system/config/cache_sqlite.php
+END
+upload.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/source/easyshop/!svn/ver/2/system/config/upload.php
+END
+inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/source/easyshop/!svn/ver/2/system/config/inflector.php
+END
+cache_memcache.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/source/easyshop/!svn/ver/2/system/config/cache_memcache.php
+END
+credit_cards.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/source/easyshop/!svn/ver/2/system/config/credit_cards.php
+END
+email.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/source/easyshop/!svn/ver/2/system/config/email.php
+END

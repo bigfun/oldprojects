@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/source/easyshop/!svn/ver/13/application/views/products
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/source/easyshop/!svn/ver/15/application/views/products/view.php
+END
+notexist.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/source/easyshop/!svn/ver/15/application/views/products/notexist.php
+END
+product.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/source/easyshop/!svn/ver/15/application/views/products/product.php
+END
+edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/source/easyshop/!svn/ver/15/application/views/products/edit.php
+END
+add.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/source/easyshop/!svn/ver/15/application/views/products/add.php
+END

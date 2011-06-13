@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift
+END
+Iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Iterator.php
+END
+ConnectionBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/ConnectionBase.php
+END
+CacheFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/CacheFactory.php
+END
+ClassLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/ClassLoader.php
+END
+FileException.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/FileException.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Exception.php
+END
+Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Connection.php
+END
+Cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Cache.php
+END
+Events.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Events.php
+END
+Authenticator.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Authenticator.php
+END
+BatchMailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/BatchMailer.php
+END
+ConnectionException.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/ConnectionException.php
+END
+RecipientList.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/RecipientList.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/File.php
+END
+Log.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Log.php
+END
+BadResponseException.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/BadResponseException.php
+END
+LogContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/LogContainer.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Message.php
+END
+Address.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Address.php
+END
+AddressContainer.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/AddressContainer.php
+END

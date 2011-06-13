@@ -1,0 +1,7 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+class Product_Model extends ORM {
+
+	protected $sorting = array('id' => 'desc');
+
+}

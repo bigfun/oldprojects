@@ -1,0 +1,50 @@
+<?php
+
+if (!empty($errors)) {
+    echo '<ul>';
+    foreach ($errors as $error) {
+        echo '<li>'.$error.'</li>';
+    }
+    echo '</ul>';
+}
+if (!empty($errors2)) {
+    echo '<ul>';
+    foreach ($errors2 as $error) {
+        echo '<li>'.$error.'</li>';
+    }
+    echo '</ul>';
+}
+echo '<div class="post">';
+echo '<div class="entry">';
+echo '<h2 class="maintitle">Dodawanie nowego produktu:</h2>';
+echo '<p class="meta"><small>(Można używać znaczników html w opisie artykułu)</small></p>';
+
+
+echo form::open(NULL, array('enctype' => 'multipart/form-data'));
+
+echo '<p>'.form::label('title', 'Nazwa produktu:').'<br / >'.form::input(array(
+													 'name' => 'title',
+													 'style' => 'width: 30em;')
+													 ).'<br / >';
+
+echo form::label('description', 'Opis produktu:').'<br / >'.form::textarea(array(
+												'name' => 'description',
+												'rows' => '20',
+												'cols' => '50')).'</p>';
+												
+echo '<p>'.form::label('price', 'Cena produktu:').'<br / >'.form::input(array(
+													 'name' => 'price',
+													 'style' => 'width: 10em;')
+													 ).'<br / >';										
+echo '<p>'.form::label('image', 'Obrazek produktu:').'<br / >'.form::upload(array(
+													 'name' => 'image',
+													 'class' => 'image')
+													 ).'<br / >';
+echo '<p>'.form::submit('submit', 'Dodaj produkt').'</p>';
+
+echo form::close();
+echo '</div>';
+echo '</div>';
+
+
+

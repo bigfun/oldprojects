@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment
+END
+Trident.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Trident.php
+END
+Authorize.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Authorize.php
+END
+Moneybookers.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Moneybookers.php
+END
+Trustcommerce.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Trustcommerce.php
+END
+Googlecheckout.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Googlecheckout.php
+END
+Paypal.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Paypal.php
+END
+Paypalpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Paypalpro.php
+END
+Yourpay.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/easyshop/!svn/ver/2/modules/payment/libraries/drivers/Payment/Yourpay.php
+END

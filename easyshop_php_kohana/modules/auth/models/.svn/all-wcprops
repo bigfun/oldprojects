@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/source/easyshop/!svn/ver/2/modules/auth/models
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/easyshop/!svn/ver/2/modules/auth/models/user.php
+END
+user_token.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/source/easyshop/!svn/ver/2/modules/auth/models/user_token.php
+END
+auth_user.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/source/easyshop/!svn/ver/2/modules/auth/models/auth_user.php
+END
+auth_user_token.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/source/easyshop/!svn/ver/2/modules/auth/models/auth_user_token.php
+END
+role.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/source/easyshop/!svn/ver/2/modules/auth/models/role.php
+END
+auth_role.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/source/easyshop/!svn/ver/2/modules/auth/models/auth_role.php
+END

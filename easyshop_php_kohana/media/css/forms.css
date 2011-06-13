@@ -1,0 +1,137 @@
+form.easyform {
+	font-size: 1.0em;
+	color: #333;
+    margin: 20px;
+}
+
+form.easyform fieldset {
+	margin-bottom: 10px;
+    border: none;
+	background-color: #F8FDEF;
+}
+
+form.easyform legend {
+	padding: 0 2px;
+	font-weight: bold;
+    margin-top:20px;
+}
+
+form.easyform label {
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: top;
+	cursor: pointer;
+    width: 300px;
+    text-align:right;
+    
+}
+
+form.easyform fieldset p {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+
+form.easyform fieldset fieldset {
+	border: none;
+	margin: 3px 0 0;
+    background: none;
+}
+
+form.easyform fieldset fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+}
+
+form.easyform fieldset fieldset label {
+	display: block;
+	width: auto;
+
+    margin-left: 103px; 
+}
+
+form.easyform label.error {
+	width: 300px;
+}
+
+form.easyform input.submit {
+	margin-top: 20px;
+    margin-right: 20px;
+    float:right;
+    width: 100px;
+}
+
+
+form.easyform label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic;
+}
+
+div.error { display: none; }
+form.easyform input {	width: 200px;}
+form.easyform input:focus { border: 1px dotted black; }
+form.easyform textarea:focus {border: 1px dotted black;}
+form.easyform textarea.error {border: 1px dotted red;}
+form.easyform input.error { border: 1px dotted red; }
+form.easyform .gray * { color: gray; }
+
+form#loginForm label {
+    width:100px;
+}
+
+form#newArticleForm label{
+    width:120px;
+}
+form#newArticleForm input{
+    width:350px;
+}
+
+form#newArticleForm textarea {
+    width:350px;
+    height:400px;
+}
+
+form#newProductForm label {
+    width:150px;
+}
+
+form#newProductForm input {
+    width:250px;
+}
+form#newProductForm textarea {
+    width:300px;
+    height:350px;
+}
+
+
+form#newProductForm select {
+    width:150px;
+}
+
+form#newProductForm input.submit {
+    margin-top:30px;
+    margin-left:30px;
+    float:left;
+    width: 130px;
+}
+form#newCategoryForm {
+    margin-top: 40px;
+    padding: 0;
+
+}
+form#newCategoryForm label {
+    width:150px;
+}
+
+form#loginForm label.error, form#newArticleForm label.error {
+    width:221px;
+}
+form#loginForm input.submit,form#newArticleForm input.submit {
+    margin-left:50px;
+    width:100px;
+    float:left;
+}
+
+
+

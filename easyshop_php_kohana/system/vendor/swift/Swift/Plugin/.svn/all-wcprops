@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin
+END
+EasySwiftResponseTracker.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/EasySwiftResponseTracker.php
+END
+ConnectionRotator.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/ConnectionRotator.php
+END
+BandwidthMonitor.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/BandwidthMonitor.php
+END
+MailSend.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/MailSend.php
+END
+VerboseSending.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/VerboseSending.php
+END
+AntiFlood.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/AntiFlood.php
+END
+Decorator.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/Decorator.php
+END
+FileEmbedder.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/FileEmbedder.php
+END
+Throttler.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/source/easyshop/!svn/ver/2/system/vendor/swift/Swift/Plugin/Throttler.php
+END

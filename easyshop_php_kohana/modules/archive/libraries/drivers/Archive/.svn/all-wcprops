@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/source/easyshop/!svn/ver/2/modules/archive/libraries/drivers/Archive
+END
+Gzip.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/source/easyshop/!svn/ver/2/modules/archive/libraries/drivers/Archive/Gzip.php
+END
+Zip.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/source/easyshop/!svn/ver/2/modules/archive/libraries/drivers/Archive/Zip.php
+END
+Bzip.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/source/easyshop/!svn/ver/2/modules/archive/libraries/drivers/Archive/Bzip.php
+END
+Tar.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/source/easyshop/!svn/ver/2/modules/archive/libraries/drivers/Archive/Tar.php
+END

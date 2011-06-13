@@ -1,0 +1,15 @@
+<?php
+		foreach ($articles as $article)
+		{
+		   echo '<div class="post">';
+		   
+		   echo '<h2 class="title">'.html::anchor('articles/article/'.$article->id, $article->title).'</h2>';
+		   echo	'<p class="meta"><small>Napisał ',$article->user->name.' '.$article->user->surname, ' dnia ', date('j.m.Y',$article->date),' o godzinie ',date('H:i:s',$article->date)  , ' </a></small></p>';
+		   echo '<div class="entry">';
+		   echo '<p>'.text::limit_words($article->body, 50, '...').html::anchor('articles/article/'.$article->id, " Czytaj całość ").'</p>';
+		   echo '</div>';		   
+		   echo '</div>';
+		}
+		
+		echo $pages ;
+

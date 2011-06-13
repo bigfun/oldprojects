@@ -1,0 +1,126 @@
+<?php
+defined('SYSPATH') or die ('No direct script access.');
+
+class Admin_Controller extends Controller
+{
+    public function index()
+    {
+        $this->template->content = $this->_user();
+        url::redirect('admin/login');
+    }
+
+    public function login()
+    {
+        if ($this->_user())
+        {
+            $this->session->destroy();
+        }
+
+        $_POST = Validation::factory($_POST)
+        ->add_rules('mail', 'required', 'email')
+        ->add_rules('pass', 'required');
+        if ($_POST->validate())
+        {
+            $user = ORM::factory('user')->where('mail', $_POST['mail'])->find();
+
+            if ($user->pass == md5($_POST['pass']))
+            {
+                $this->session->set( array (
+                'id'=>$user->id,
+                'permission'=>$user->permission));
+                $this->session->set_flash('user_message', 'Zalogowano!');
+                url::redirect();
+            } else
+            {
+                $this->session->set_flash('user_message', 'Błąd! Zła nazwa użytkownika lub hasło.');
+                url::redirect('admin/login');
+            }
+        } else
+        {
+            $this->template->title = "easyshop - Logowanie";
+            $this->template->content = View::factory('admin/login')->set('errors', $_POST->errors('validation'));
+        }
+    }
+
+    public function register()
+    {
+        if ($this->_user())
+        {
+            url::redirect();
+        }
+        else
+        {
+
+            $_POST = Validation::factory($_POST)
+            ->add_rules('*', 'required')
+            ->add_rules('mail', 'required', 'email');
+            if ($_POST->validate())
+            {
+                $user = ORM::factory('user')->where('mail', $_POST['mail'])->find();
+
+                if ($user->count_last_query() > 0)
+                {
+                    $this->session->set_flash('user_message', 'Podany adres email jest zajęty.');
+                    url::redirect('admin/register');
+                }
+                else
+                {
+                    $user = ORM::factory('user');
+					$contact = ORM::factory('contact');
+                    $user->mail = $_POST["mail"];
+                    $user->pass = md5($_POST["pass"]);
+                    $user->name = $_POST["name"];
+                    $user->surname = $_POST["surname"];
+					$user->permission = 1;
+					$user->save();
+					$contact->user_id = $user->id;
+                    $contact->city = $_POST["city"];
+                    $contact->postcode = $_POST["postcode"];
+                    $contact->street = $_POST["street"];
+                    $contact->phone = $_POST["phone"];
+					$contact->save();
+                    $this->session->set_flash('user_message', 'Rejestracja przebiegła pomyślnie. Możesz się zalogować.');
+                    url::redirect('admin/login');
+                }
+            } else
+            {
+                $this->template->title = "easyshop - Rejestracja";
+                $this->template->content = View::factory('admin/register')->set( array (
+                'errors'=>$_POST->errors('validation')
+                ));
+            }
+        }
+    }
+
+    public function profile($id = -1)
+    {
+        if ($this->_user() != 'admin' || $id == -1)
+        {
+            $this->_show_profile($this->session->get('id'));
+        }
+        else
+            $this->_show_profile($id);
+    }
+
+    public function _show_profile($id)
+    {
+        $user = ORM::factory('user')->find($id);
+    	if ($user->count_last_query() > 0)
+    	{
+       	 	$this->template->title.= ' - Profil: '.$user->name.' '.$user->surname;
+    		$this->template->content = View::factory('admin/profile')->set('user', $user);
+		}
+		else
+		{
+			$this->template->title.= ' - Profil: nie znaleziono';
+			$this->template->content = View::factory('admin/notexist');
+		}
+	}	
+	public function logout()
+	{
+ 	   $this->session->destroy();
+	   $this->session->create();
+	   $this->session->set_flash('user_message', 'Zostałeś wylogowany!');
+	   url::redirect();
+	}
+}
