@@ -1,0 +1,26 @@
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\obj\Debug\graf.Properties.Resources.resources
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\obj\Debug\graf.csproj.GenerateResource.Cache
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\bin\Debug\graf.exe
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\bin\Debug\graf.pdb
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\obj\Debug\graf.exe
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\obj\Debug\graf.pdb
+C:\Documents and Settings\bigfun\Moje dokumenty\Visual Studio 2008\Projects\graf\graf\obj\Debug\Graf.grafForm.resources
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\obj\Debug\graf.exe
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\obj\Debug\graf.pdb
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\obj\Debug\graf.grafForm.resources
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\obj\Debug\graf.Properties.Resources.resources
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\obj\Debug\graf.csproj.GenerateResource.Cache
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\bin\Debug\graf.exe
+C:\Documents and Settings\st\Pulpit\graf\graf\graf\bin\Debug\graf.pdb
+J:\graf\graf\obj\Debug\graf.exe
+J:\graf\graf\obj\Debug\graf.pdb
+C:\Users\bigfun\Documents\data\graf\graf\obj\Debug\graf.exe
+C:\Users\bigfun\Documents\data\graf\graf\obj\Debug\graf.pdb
+C:\Users\bigfun\Documents\data\graf\graf\bin\Debug\graf.exe
+C:\Users\bigfun\Documents\data\graf\graf\bin\Debug\graf.pdb
+C:\Users\bigfun\Documents\data\graf\graf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bigfun\Documents\data\graf\graf\obj\Debug\graf.grafForm.resources
+C:\Users\bigfun\Documents\data\graf\graf\obj\Debug\graf.Properties.Resources.resources
+C:\Users\bigfun\Documents\data\graf\graf\obj\Debug\graf.csproj.GenerateResource.Cache
