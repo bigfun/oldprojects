@@ -1,0 +1,81 @@
+<RCC>
+  <qresource prefix="sprites">
+    <file alias="apple">../images/apple.png</file>
+    <file alias="bug">../images/bug.png</file>
+    <file alias="wall1">../images/wall1.png</file>
+    <file alias="wall2">../images/wall2.png</file>
+    <file alias="wall3">../images/wall3.png</file>
+  </qresource>
+  <qresource prefix="yellow_snake">
+    <file alias="body-down">../images/yellow/body-down.png</file>
+    <file alias="body-left">../images/yellow/body-left.png</file>
+    <file alias="body-right">../images/yellow/body-right.png</file>
+    <file alias="body-up">../images/yellow/body-up.png</file>
+    <file alias="end-down">../images/yellow/end-down.png</file>
+    <file alias="end-left">../images/yellow/end-left.png</file>
+    <file alias="end-right">../images/yellow/end-right.png</file>
+    <file alias="end-up">../images/yellow/end-up.png</file>
+    <file alias="head-down">../images/yellow/head-down.png</file>
+    <file alias="head-left">../images/yellow/head-left.png</file>
+    <file alias="head-right">../images/yellow/head-right.png</file>
+    <file alias="head-up">../images/yellow/head-up.png</file>
+    <file alias="turn-downleft">../images/yellow/turn-downleft.png</file>
+    <file alias="turn-downright">../images/yellow/turn-downright.png</file>
+    <file alias="turn-upleft">../images/yellow/turn-upleft.png</file>
+    <file alias="turn-upright">../images/yellow/turn-upright.png</file>
+  </qresource>
+  <qresource prefix="green_snake">
+    <file alias="body-down">../images/green/body-down.png</file>
+    <file alias="body-left">../images/green/body-left.png</file>
+    <file alias="body-right">../images/green/body-right.png</file>
+    <file alias="body-up">../images/green/body-up.png</file>
+    <file alias="end-down">../images/green/end-down.png</file>
+    <file alias="end-left">../images/green/end-left.png</file>
+    <file alias="end-right">../images/green/end-right.png</file>
+    <file alias="end-up">../images/green/end-up.png</file>
+    <file alias="head-down">../images/green/head-down.png</file>
+    <file alias="head-left">../images/green/head-left.png</file>
+    <file alias="head-right">../images/green/head-right.png</file>
+    <file alias="head-up">../images/green/head-up.png</file>
+    <file alias="turn-downleft">../images/green/turn-downleft.png</file>
+    <file alias="turn-downright">../images/green/turn-downright.png</file>
+    <file alias="turn-upleft">../images/green/turn-upleft.png</file>
+    <file alias="turn-upright">../images/green/turn-upright.png</file>
+  </qresource>
+    <qresource prefix="red_snake">
+    <file alias="body-down">../images/red/body-down.png</file>
+    <file alias="body-left">../images/red/body-left.png</file>
+    <file alias="body-right">../images/red/body-right.png</file>
+    <file alias="body-up">../images/red/body-up.png</file>
+    <file alias="end-down">../images/red/end-down.png</file>
+    <file alias="end-left">../images/red/end-left.png</file>
+    <file alias="end-right">../images/red/end-right.png</file>
+    <file alias="end-up">../images/red/end-up.png</file>
+    <file alias="head-down">../images/red/head-down.png</file>
+    <file alias="head-left">../images/red/head-left.png</file>
+    <file alias="head-right">../images/red/head-right.png</file>
+    <file alias="head-up">../images/red/head-up.png</file>
+    <file alias="turn-downleft">../images/red/turn-downleft.png</file>
+    <file alias="turn-downright">../images/red/turn-downright.png</file>
+    <file alias="turn-upleft">../images/red/turn-upleft.png</file>
+    <file alias="turn-upright">../images/red/turn-upright.png</file>
+  </qresource>
+    <qresource prefix="blue_snake">
+    <file alias="body-down">../images/blue/body-down.png</file>
+    <file alias="body-left">../images/blue/body-left.png</file>
+    <file alias="body-right">../images/blue/body-right.png</file>
+    <file alias="body-up">../images/blue/body-up.png</file>
+    <file alias="end-down">../images/blue/end-down.png</file>
+    <file alias="end-left">../images/blue/end-left.png</file>
+    <file alias="end-right">../images/blue/end-right.png</file>
+    <file alias="end-up">../images/blue/end-up.png</file>
+    <file alias="head-down">../images/blue/head-down.png</file>
+    <file alias="head-left">../images/blue/head-left.png</file>
+    <file alias="head-right">../images/blue/head-right.png</file>
+    <file alias="head-up">../images/blue/head-up.png</file>
+    <file alias="turn-downleft">../images/blue/turn-downleft.png</file>
+    <file alias="turn-downright">../images/blue/turn-downright.png</file>
+    <file alias="turn-upleft">../images/blue/turn-upleft.png</file>
+    <file alias="turn-upright">../images/blue/turn-upright.png</file>
+  </qresource>
+</RCC>
