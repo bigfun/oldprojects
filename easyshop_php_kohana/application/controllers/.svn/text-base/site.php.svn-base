@@ -1,9 +1,0 @@
-<?php defined('SYSPATH') or die('No direct script access.');
-
-class Site_Controller extends Controller {
-    public function index() {
-    	$this->template->title = "easyshop";
-		$this->template->login = $this->_user();
-    	url::redirect("articles", 301);	
-    }
-}
